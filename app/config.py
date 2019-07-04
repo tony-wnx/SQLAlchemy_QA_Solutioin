@@ -4,7 +4,7 @@ import os
 
 
 class Config:
-    SITE_NAME = u'YOYOCLUB'
+    SITE_NAME = u'SQLAlchemy_QA'
     SQLALCHEMY_POOL_RECYCLE = 10
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
@@ -12,8 +12,8 @@ class Config:
 
 class DevelopmentConfig(Config):
 
-    HOST = '127.0.0.1'
-    PORT = 5000
+    HOST = 'xxx.xxx.xxx.xxx'
+    PORT = xxx
     DEBUG = True
     SECRET_KEY = ''
     SQLALCHEMY_ECHO = False
