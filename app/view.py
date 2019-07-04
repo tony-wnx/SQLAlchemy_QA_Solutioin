@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-    Copyright (C) 2019 YOYOCLUB
+    Copyright (C) 2019 xxx
     All rights reserved
 
     Filename : view.py
     Description : view.py
 
-    Created by yxq at 2019/7/3 14:27
+    Created by xxx at 2019/7/3 14:27
 """
 from flask import Blueprint
 from app.models_tmp import CircleClasscircle, CircleStory
