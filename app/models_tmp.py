@@ -9,7 +9,7 @@ from app import db
 
 
 # engine = create_engine(
-#     "mysql+pymysql://haierzhongyou:dKLLLbcQ2a4Nl41MallT@rdsx63p8l175ukqi9120o.mysql.rds.aliyuncs.com:3306/yoyoclub")
+#     "mysql+pymysql://xxxxxx:xxxxxx@xxxxxx.mysql.xxxxxx.aliyuncs.com:3306/xxxxxx")
 #
 #
 # class MyBase(object):
@@ -24,7 +24,7 @@ from app import db
 
 
 class CircleClasscircle(db.Model):
-    __tablename__ = 'haier_yoyo_circle_classcircle'
+    __tablename__ = 'circle_classcircle'
 
     id = Column(String(64), primary_key=True)
     class_id = Column(String(64))
@@ -49,7 +49,7 @@ class CircleClasscircle(db.Model):
 
 
 class CircleStory(db.Model):
-    __tablename__ = 'haier_yoyo_circle_story'
+    __tablename__ = 'circle_story'
 
     id = Column(String(64), primary_key=True)
     circle_id = Column(String(64))
