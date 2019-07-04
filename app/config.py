@@ -15,16 +15,16 @@ class DevelopmentConfig(Config):
     HOST = '127.0.0.1'
     PORT = 5000
     DEBUG = True
-    SECRET_KEY = '0\xd4H\x08\x80gQ\xa3\x9c\xeaO\x01\xb8\xd3\xb5B\xd6\xd6e%\xf3\xe3\xd0\xc4'
+    SECRET_KEY = ''
     SQLALCHEMY_ECHO = False
-    MYSQL_USER = 'haierzhongyou'
-    MYSQL_PASS = 'dKLLLbcQ2a4Nl41MallT'
-    MYSQL_HOST = 'rdsx63p8l175ukqi9120o.mysql.rds.aliyuncs.com'
+    MYSQL_USER = 'xxxxxx'
+    MYSQL_PASS = 'xxxxxx'
+    MYSQL_HOST = 'xxxxxx.xxxxxx.xxxxxx.aliyuncs.com'
     MYSQL_PORT = '3306'
-    MYSQL_DB = 'yoyoclub'
+    MYSQL_DB = 'xxxxxx'
     MYSQL_DB2 = 'log'
     SQLALCHEMY_BINDS = {
-        'yoyoclub': 'mysql+pymysql://%s:%s@%s:%s/%s' % (MYSQL_USER,
+        'xxxxxx': 'mysql+pymysql://%s:%s@%s:%s/%s' % (MYSQL_USER,
                                                         MYSQL_PASS,
                                                         MYSQL_HOST,
                                                         MYSQL_PORT,
